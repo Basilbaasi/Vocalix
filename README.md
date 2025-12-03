@@ -1,6 +1,6 @@
-# 🤖 Jarvis AI Assistant
+# 🤖 Vocalix AI Assistant
 
-**Jarvis** is a modular **voice-controlled Python AI assistant** powered by **Google Gemma 3n-e4b-it** via NVIDIA’s developer API.  
+**Vocalix** is a modular **voice-controlled Python AI assistant** powered by **Google Gemma 3n-e4b-it** via NVIDIA’s developer API.  
 It supports **speech recognition, app automation, Wikipedia search, web browsing, media playback, and real-time AI conversations.**
 
 ---
@@ -46,8 +46,8 @@ NVIDIA_API_BASE_URL=https://integrate.api.nvidia.com/v1
 bash
 Copy
 Edit
-git clone https://github.com/Basilbaasi/Jarvis---AI.git
-cd Jarvis---AI
+git clone https://github.com/Basilbaasi/Vocalix---AI.git
+cd Vocalix---AI
 pip install -r requirements.txt
 🚀 Run the Assistant
 bash
@@ -56,21 +56,21 @@ Edit
 python main.py
 Example commands:
 
-“Jarvis open YouTube”
+“Vocalix open YouTube”
 
-“Jarvis what is machine learning”
+“Vocalix what is machine learning”
 
-“Jarvis play music”
+“Vocalix play music”
 
-“Jarvis search pandas in web”
+“Vocalix search pandas in web”
 
 🖼️ Screenshots
 
 ### Opening Instagram
-![Jarvis Opening Instagram](screenshots/jarvis_instagram.png)
+![Vocalix Opening Instagram](screenshots/Vocalix_instagram.png)
 
 ### Searching Anna University
-![Jarvis Searching University result on web](screenshots/jarvis_university.png)
+![Vocalix Searching University result on web](screenshots/Vocalix_university.png)
 
 
 🎥 Demo Video

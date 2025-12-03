@@ -4,8 +4,8 @@ import wikipedia
 import webbrowser
 import requests
 from datetime import datetime
-from jarvis.core import speak
-from jarvis.config import API_KEY, BASE_URL
+from Vocalix.core import speak
+from Vocalix.config import API_KEY, BASE_URL
 from AppOpener import open as open_app, close as close_app
 
 # ─────────────────────────────────────────────
@@ -66,7 +66,7 @@ def search_wikipedia(query: str):
         speak("Sorry, I couldn't find anything useful.")
 
 def answer_question_short(question: str):
-    question = question.replace("jarvis", "").strip()
+    question = question.replace("Vocalix", "").strip()
     try:
         response_text = model(question + " in short")
         #print(response_text)
@@ -92,7 +92,7 @@ def chat():
             speak("I'm sorry, I couldn't find an answer.")
 
 def answer_question_full(question: str):
-    question = question.replace("jarvis", "").strip()
+    question = question.replace("Vocalix", "").strip()
     try:
         response_text = model(question)
         print("result:\n\n\n", response_text)
@@ -182,4 +182,4 @@ def tell_time():
     speak(f"Sir, the time is {current_time}")
 
 def respond_identity():
-    speak("I am jarvis AI, a personal assistant for Basil. I can open apps, search the web, and answer your questions.")
+    speak("I am Vocalix AI, a personal assistant for Basil. I can open apps, search the web, and answer your questions.")

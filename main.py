@@ -1,5 +1,6 @@
-from jarvis.core import *
-from jarvis.commands import *
+
+from Vocalix.core import *
+from Vocalix.commands import *
 
 def greet():
     import datetime
@@ -15,7 +16,7 @@ def greet():
 if __name__ == "__main__":
     greet()
     while True:
-        print("\n1) Speak \033[1mCHAT\033[0m for a chat version\n2) For searching web specify that like \033[1mIN WEB\033[0m in web\n3) Include \033[1mJARVIS\033[0m in speach for AI answer\n4) Include \033[1mJARVIS FULL\033[0m in speach for AI answer in detail\n5) Include \033[1mOPEN\033[0m for opening apps like open instagram \n")
+        print("\n1) Speak \033[1mCHAT\033[0m for a chat version\n2) For searching web specify that like \033[1mIN WEB\033[0m in web\n3) Include \033[1mVocalix\033[0m in speach for AI answer\n4) Include \033[1mVocalix FULL\033[0m in speach for AI answer in detail\n5) Include \033[1mOPEN\033[0m for opening apps like open instagram \n")
         query = listen()
         if query == "none":
             continue
@@ -26,7 +27,7 @@ if __name__ == "__main__":
         elif 'on web' in query or 'in web' in query:
             open_website(query)
 
-        elif 'jarvis' in query:
+        elif 'Vocalix' in query:
             #if 'full' in query:
             if 'full' in query:
                 answer_question_full(query)
