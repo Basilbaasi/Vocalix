@@ -58,8 +58,8 @@ python main.py
 ## Media & Demo
 
 - **Screenshots:**
-  - [Opening Instagram](screenshots/Vocalix_instagram.png)
-  - [Searching Anna University](screenshots/Vocalix_university.png)
+  - [Vocalix](screenshots/Vocalix.png)
+  - [LLM Integration.png](screenshots/LLM Integration.png)
 - **Demo Video:** [Watch the Vocalix live demonstration on LinkedIn](https://www.linkedin.com/posts/basilck_python-ai-voiceassistant-activity-7354211469388849153-FYhw)
 
 ## License
