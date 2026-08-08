@@ -29,36 +29,41 @@ This project requires an NVIDIA API key to access the Gemma model.
 ```bash
 git clone https://github.com/Basilbaasi/Vocalix---AI.git
 cd Vocalix---AI
+```
 
-Install dependencies:
-bash
-
-
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
-Configure your environment variables. Create a .env file in the root directory:
-env
+```
 
-
+3. Configure your environment variables. Create a `.env` file in the root directory:
+```env
 NVIDIA_API_KEY=your_nvidia_api_key_here
 NVIDIA_API_BASE_URL=https://integrate.api.nvidia.com/v1
-Usage
+```
+
+## Usage
+
 Start the assistant by running the main script:
-
-bash
-
-
+```bash
 python main.py
-Example Voice Commands
-"Vocalix, open YouTube"
-"Vocalix, what is machine learning?"
-"Vocalix, play music"
-"Vocalix, search pandas on the web"
-Media & Demo
-Screenshots:
-Opening Instagram
-Searching Anna University
-Demo Video: Watch the Vocalix live demonstration on LinkedIn
-License
+```
+
+### Example Voice Commands
+- *"Vocalix, open YouTube"*
+- *"Vocalix, what is machine learning?"*
+- *"Vocalix, play music"*
+- *"Vocalix, search pandas on the web"*
+
+## Media & Demo
+
+- **Screenshots:**
+  - [Opening Instagram](screenshots/Vocalix_instagram.png)
+  - [Searching Anna University](screenshots/Vocalix_university.png)
+- **Demo Video:** [Watch the Vocalix live demonstration on LinkedIn](https://www.linkedin.com/posts/basilck_python-ai-voiceassistant-activity-7354211469388849153-FYhw)
+
+## License
 This project is licensed under the MIT License.
 
-Built by Basil C K. Powered by Google Gemma LLM via NVIDIA Build Platform.
+---
+*Built by Basil C K. Powered by Google Gemma LLM via NVIDIA Build Platform.*
