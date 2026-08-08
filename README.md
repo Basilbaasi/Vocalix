@@ -57,9 +57,6 @@ python main.py
 
 ## Media & Demo
 
-- **Screenshots:**
-  - [Vocalix](screenshots/Vocalix.png)
-  - [LLM Integration](screenshots/LLM Integration.png)
 - **Demo Video:** [Watch the Vocalix live demonstration on LinkedIn](https://www.linkedin.com/posts/basilck_python-ai-voiceassistant-activity-7354211469388849153-FYhw)
 
 ## License
